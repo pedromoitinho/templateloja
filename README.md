@@ -1,6 +1,6 @@
 <h1>Template Loja</h1>
-<img src="./img.png">
-<img src="./img1.png">
+<img src="./image.png">
+<img src="./image1.png">
 <h2>Tecnologias utilizadas:</h2>
 <ul>
   <li>
