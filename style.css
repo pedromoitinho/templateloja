@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    
+}
+body{
+    background-color:rgb(255,255,255);
+    
+    
+}
+nav{
+    height:100px;
+    margin-left:75px;
+    margin-right:75px;
+   
+}
+.navigation{
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:row;
+}
+.lupa{
+    object-fit:none;
+    margin-left:40px;
+    margin-top:30px;
+}
+.texts{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    margin-bottom:5px;
+    margin-left:10px;
+    gap:45px;
+    z-index:2;
+}
+
+
+a{
+    text-decoration:none;
+    z-index:1;
+    color:black;
+}
+.sections:hover {
+    background-color:rgba(193,203,202,0.5);
+    border-radius:20px;
+    padding:6px;
+    
+}
+#home{
+    border-bottom:0.2em solid ;
+    padding:5px;
+    border-color:rgba(193,203,202,1);
+}
+.logincart{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    width:100%;
+    
+}
+#login{
+    padding-right:30px;
+}
+hr{
+    margin-bottom:200px;
+    opacity:25%;
+}
+#cart{
+    border-left:0.15em solid rgba(193,203,202,1);
+    padding-left:30px;
+    padding-right:0;
+    margin-right:10px;
+}
+
+    
+
+#sitebody{
+    display:flex;
+    justify-content:center;
+    height:80vh;
+    margin-top:2%;
+    margin-left:75px;
+    margin-right:75px;
+    gap:0;
+
+}
+#banner{
+    object-fit: fill;
+    width:100%;
+    filter:brightness(65%);
+    position:relative;
+    box-shadow:8px -2px 15px 5px grey;
+}
+button{
+    position:absolute;
+    z-index:2;
+    background:none;
+    border:none;
+    border-radius:50px;
+    width:75px;
+    height:75px;
+    background-color: rgba(36,43,53,1);
+    color:white;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color: rgba(24,29,35,1);
+
+}
+.loja:hover{
+    background-color: rgba(24,29,35,1);
+
+}
+.novidades:hover{
+    background-color: rgba(24,29,35,1);
+}
+#right{
+    top:55%;
+    right:5%;
+}
+#left{
+    top:55%;
+    left:5%;
+}
+.titlebanner{
+    display:flex;
+    justify-content:center;
+    align-self:center;
+    position:absolute;
+    z-index:2;
+    bottom:57%;
+    color:white;
+    font-size:50px;
+    font-style:italic;
+    font-weight:300px;
+    border-bottom:3px outset rgba(255,255,255,0.7);
+   
+}
+#textbanner{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-self:center;
+    position:absolute;
+    z-index:2;
+    bottom:45%;
+    color:white;
+    font-size:50px;
+    font-style:italic;
+    font-weight:300px;
+    border-bottom:3px outset rgba(255,255,255,0.7);
+   
+}
+.loja{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-self:center;
+    position:absolute;
+    z-index:2;
+    bottom:25%;
+    right:35%;
+    color:white;
+    font-size:50px;
+    font-style:italic;
+    font-weight:300px;
+    background-color:rgba(36,43,53,0.7);
+    border-radius:10px;
+    padding:3px;
+       
+}
+.novidades{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-self:center;
+    position:absolute;
+    z-index:2;
+    bottom:25%;
+    left:30%;
+    color:white;
+    font-size:50px;
+    font-style:italic;
+    font-weight:300px;
+    background-color:rgba(36,43,53,0.7);
+    border-radius:10px;
+    padding:3px;
+       
+}
+#logo{
+    width:15%;
+    height:10%;
+    margin-top:1%;
+}
