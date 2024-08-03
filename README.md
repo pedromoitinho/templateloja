@@ -1,2 +1,1 @@
-# templateloja
-Template de uma loja, com a página de login pronta
+<h1>Template Loja</h1>
